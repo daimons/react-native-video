@@ -414,6 +414,7 @@ class ReactExoplayerView extends FrameLayout implements
                 onBuffering(false);
                 startProgressHandler();
                 videoLoaded();
+                startPlayback();
                 break;
             case ExoPlayer.STATE_ENDED:
                 text += "ended";
